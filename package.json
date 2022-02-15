@@ -1,0 +1,12 @@
+{
+  "main": "index.js",
+  "imports": {
+    "#fs": {
+      "test": "./test-fs.js",
+      "default": "fs"
+    }
+  },
+  "scripts": {
+    "test": "node --conditions test ./a.mjs && node --conditions test ./a.cjs"
+  }
+}
